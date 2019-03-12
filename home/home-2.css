@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	list-style-type: none;
+	
+	text-decoration: none;
+	margin: 0px;
+	padding:0px;
+}
+html{
+	font-family:'Lato','arial',sans-serif;
+	color: #555555;
+	background-color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+
+}
+header{
+	width: 99.85%;height: 657px;
+	
+	background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(pic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.roow{
+	
+	max-width: 1140px;
+	margin: 0 auto ;
+}
+
+ul{
+	float: right;
+	margin-top: 35px;
+}
+.main-nav li{
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 40px;
+
+}
+.main-nav li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+color: white;
+	box-sizing: border-box;
+	
+	padding: 14px;
+}
+.main-nav li a:hover{
+border-bottom:1px solid white;
+transition: 0.3s;
+}
+header h3{
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: 400;
+	font-size:40px;
+	color:#FFF;
+}
+header p{
+	
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+font-size: 23px;
+	color:#FFF;
+}
+.search{
+	
+	padding: 11px;margin-left: 30%;
+	background: transparent;
+	font-size: 15px;
+	border:1px solid #E7E7E7;
+		
+	outline: none;
+	color: white;
+	
+}
+
+
+.search:focus{
+
+	transition: 0.2s;
+    background-color: #0e0e0d;
+background-color: #0e0e0d61;
+    width: 110%;
+}
+.text{
+	width: 50%;
+margin-top: 16%;
+	margin-left: 10%;
+
+}
+.button{
+	margin: 13px;
+	padding: 14px;
+	background-color:transparent;
+	border: 2px solid  #DADADA;
+	color: #BBBBBB;
+	width: 150px;
+	border-radius: 30px;
+	font-size: 20px;
+}
+.button:hover{
+	border: 2px solid #3c0b0b;
+    background-color: #0e0e0d;
+	transition: 0.3s cubic-bezier(0, 0.54, 0, 0.65) 0s
+}
+
+.button a{
+	
+	
+	color:  #BBBBBB;
+	
+}
+/*--------section2-------*/
+
+.brand{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	
+	}
+.brand h3{
+	font-weight: 200;
+	font-size: 30px;
+}
+.sec2{
+	overflow: hidden;
+	width: 100%;
+	height:550px;
+	
+}
+.a{background-color:#f5f5f5;
+	width:100%;height: 80%;
+}
+.brands{
+	
+	height: 100%;
+	width:24.63%;display: inline-block;
+	
+}
+.brands img{
+	margin:10%;
+	
+	height: 100px;width:100px;
+}
+.brands p{
+	color: #212121d6;
+line-height: 1.7;
+	font-size:18px; 
+}
+/*---section3---*/
+.sec3{
+	overflow: hidden;
+	width: 100%;
+	
+	
+}
+.headi{
+	text-align: center;
+margin-top: 5%;
+	font-size: 30px;
+	font-weight: 400;
+word-spacing: 4px;letter-spacing: 1px;	
+}
+
+.headi::after{
+
+	width: 10%;
+	height: 3px;
+	content: " ";
+	 background-color:#BB2326;
+	display: block;
+	margin:2.34% auto auto 45%;
+}
+/*-----sec4------------*/
+.sec4{
+	height: 600px;
+}
+.bg{
+	margin-top: 50px;
+	width: 100%;
+	height: 76%;
+	background-color: #cccccc42;
+}
+
+.box img {
+	height:200px;
+	width: 200px;
+}
+.bg h3{
+	font-weight: 200;
+	padding-bottom: 20px;
+	padding-top: 8px;
+	    color: initial;
+}
+.bg {
+	color: initial;
+}
+i{
+	padding-right: 10px;
+	color:#BB2326; font-size: 25px;
+}
+i:hover{
+	color:initial;
+}
+
+/*-------footer----*/
+
+
+.footer{
+	background-color:#000000ed;
+	height: 400px;color:white;
+}
+#left{height: 100%;
+	width: 45%;
+	float: left;
+	
+}
+#right{height: 100%;
+	width: 55%;
+	float: left;
+
+}
+#left #l_1ul{
+
+	margin-right: 70%;
+}
+#left #l_1ul li{
+padding: 10px;
+	transition:0.2s ;
+}
+#left #l_1ul li a{
+	font-size: 15px;
+	
+	font-weight: 900;
+	
+	color:white;
+}
+#left #l_1ul li:hover	{
+		overflow: hidden;
+		border-bottom: 3px solid white;
+}
+#l_2ul{
+	margin-top:25%;margin-right: 30%;
+}
+#l_2ul li{
+	float:left;padding: 10px;
+	font-size:16px;
+	font-weight: 600;
+}
+#l_2ul a{
+	
+	color:white;
+}
+#l_2ul a:hover{
+color:#f4f4f4e6;
+}
+
+#right #top{
+	margin-right: 40%;
+}
+#right #top li:last-child{
+	padding: 20px;
+	
+	
+}
+#right #top li:first-child{
+	padding:10px 0px 10px 0px ;
+}
+#right #top li::p,h1 {
+	
+	color:white;
+}
+.email{
+	
+	background-color: transparent;
+	border:none;
+	outline: none;
+	padding:9px 0px;
+ transition:0.2s;	
+	border-bottom: 2px solid white;
+}
+.email::placeholder{
+color:white;
+	font-size: 16px;
+	font-weight: 530;
+	
+	
+}
+
+.email:focus{
+	
+	width: 90%;
+}
+.foot:hover{
+	color: #BCBCBC;
+}
+.foot{
+	font-size: 20px;
+}
