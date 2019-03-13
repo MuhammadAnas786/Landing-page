@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-
+/*--------Css----------------------------*/
 *{
 	list-style-type: none;
 	
@@ -16,6 +16,7 @@ html{
 	font-weight: 300;
 
 }
+/*----------header------------------*/
 header{
 	width: 99.85%;height: 657px;
 	
